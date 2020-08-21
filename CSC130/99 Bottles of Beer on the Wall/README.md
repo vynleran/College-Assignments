@@ -20,13 +20,13 @@ Take one down, pass it around.
 
 ## To help clarify, here are some specifics and/or constraints:
 
-1- You must rewrite the passSomeBeers function so that it implements the algorithm
+1. You must rewrite the passSomeBeers function so that it implements the algorithm
 recursively instead of iteratively (i.e., calls itself, breaking the problem down ultimately to a base
 case, and uses no loops);
 
-2- The grammatical error when the number of bottles of beer on the wall is one must be corrected;
+2. The grammatical error when the number of bottles of beer on the wall is one must be corrected;
 
-3- You must use the provided source code template; and
+3. You must use the provided source code template; and
 
-4- You must submit your source code as a single .py file.
+4. You must submit your source code as a single .py file.
 
