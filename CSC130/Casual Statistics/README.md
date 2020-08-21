@@ -42,25 +42,25 @@ The range is 350.
 
 ## To help clarify, here are some specifics and/or constraints:
 
-1- Getting user input for the three integers must be implemented in a function that is called once for
+1. Getting user input for the three integers must be implemented in a function that is called once for
 each integer;
 
-2- Each integer must be stored in a separate, unique variable;
+2. Each integer must be stored in a separate, unique variable;
 
-3- Calculating the various statistics must be done in separate functions, one for each statistic;
+3. Calculating the various statistics must be done in separate functions, one for each statistic;
 
-4- Calculating the various statistics must not be done using any math functions, libraries, or utilities
+4. Calculating the various statistics must not be done using any math functions, libraries, or utilities
 (i.e., do so manually using if-statements and/or basic arithmetic expressions);
 
-5- Your output should be exactly like the sample runs shown above (of course, actual input values
+5. Your output should be exactly like the sample runs shown above (of course, actual input values
 and calculations will vary depending on the provided inputs);
 
-6- You must include a meaningful header, use good coding style, use meaningful variable names,
+6. You must include a meaningful header, use good coding style, use meaningful variable names,
 and comment your source code where appropriate;
 
-7- You must use the provided source code template; and
+7. You must use the provided source code template; and
 
-8- You must submit your source code as a single .py file.
+8. You must submit your source code as a single .py file.
 
 ## Note that carefully observing the main part of the program should assist you in naming your functions properly. Also, you may not know exactly how to calculate some of the statistics. Know this: Google is your friend!
 
