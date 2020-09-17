@@ -4,27 +4,34 @@ public class Plane {
     private String destination;
     private int travelDay;
 
+    /*The constructor*/
+    public Plane(int n, int t, String d) {
+        planeNum = n;
+        destination = d;
+        travelDay = t;
+    }
+
     /*Getters and setters for plane number*/
-    private void setPlaneNum(int planeNum) {
+    public void setPlaneNum(int planeNum) {
         this.planeNum = planeNum;
     }
-    private int getPlaneNum() {
+    public int getPlaneNum() {
         return this.planeNum;
     }
 
     /*Getters and setters for destination*/
-    private void setDestination(String destination) {
+    public void setDestination(String destination) {
         this.destination = destination;
     }
-    private String getDestination() {
+    public String getDestination() {
         return this.destination;
     }
 
     /*Getters and setters for the day of travel*/
-    private void setTravelDay(int travelDay) {
+    public void setTravelDay(int travelDay) {
         this.travelDay = travelDay;
     }
-    private int getTravelDay() {
+    public int getTravelDay() {
         if (this.travelDay <= 7 && this.travelDay >= 1) {
             return this.travelDay;
         }
@@ -32,5 +39,10 @@ public class Plane {
             return 1;
         }
 
+    }
+
+    /*Printing the array elements instead of their memory address*/
+    public String toString() {
+        return(planeNum + " " + destination + " " + travelDay);
     }
 }
