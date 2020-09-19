@@ -1,0 +1,109 @@
+Plane ID                Destination             Day of Travel
+9010                    Florida                 3
+9002                    Florida                 1
+9005                    Florida                 1
+9013                    Florida                 3
+9008                    Florida                 2
+9024                    Florida                 6
+9016                    Florida                 4
+9021                    Florida                 5
+9018                    Florida                 5
+9029                    Paris                   7
+9026                    Bahamas                 7
+9007                    Boston                  2
+9015                    Boston                  4
+9023                    Boston                  6
+9009                    NYC                     2
+9012                    NYC                     3
+9004                    NYC                     1
+9025                    NYC                     6
+9017                    NYC                     4
+9020                    NYC                     5
+9011                    Chicago                 3
+9019                    Chicago                 5
+9003                    Chicago                 1
+9014                    DC                      4
+9006                    DC                      2
+9022                    DC                      6
+9027                    Jamaica                 7
+9028                    London                  7
+
+What Option would you like?
+1 - Sort the planes out
+2 - Looking for your flight?
+Exit
+
+1
+
+Plane ID                Destination             Day of Travel
+9002                    Florida                 1
+9003                    Chicago                 1
+9004                    NYC                     1
+9005                    Florida                 1
+9006                    DC                      2
+9007                    Boston                  2
+9008                    Florida                 2
+9009                    NYC                     2
+9010                    Florida                 3
+9011                    Chicago                 3
+9012                    NYC                     3
+9013                    Florida                 3
+9014                    DC                      4
+9015                    Boston                  4
+9016                    Florida                 4
+9017                    NYC                     4
+9018                    Florida                 5
+9019                    Chicago                 5
+9020                    NYC                     5
+9021                    Florida                 5
+9022                    DC                      6
+9023                    Boston                  6
+9024                    Florida                 6
+9025                    NYC                     6
+9026                    Bahamas                 7
+9027                    Jamaica                 7
+9028                    London                  7
+9029                    Paris                   7
+
+C:\Users\khoda\OneDrive\Desktop\LA Tech\Courses\CSC 220\Program 1>java Main
+Plane ID                Destination             Day of Travel
+9010                    Florida                 3
+9002                    Florida                 1
+9005                    Florida                 1
+9013                    Florida                 3
+9008                    Florida                 2
+9024                    Florida                 6
+9016                    Florida                 4
+9021                    Florida                 5
+9018                    Florida                 5
+9029                    Paris                   7
+9026                    Bahamas                 7
+9007                    Boston                  2
+9015                    Boston                  4
+9023                    Boston                  6
+9009                    NYC                     2
+9012                    NYC                     3
+9004                    NYC                     1
+9025                    NYC                     6
+9017                    NYC                     4
+9020                    NYC                     5
+9011                    Chicago                 3
+9019                    Chicago                 5
+9003                    Chicago                 1
+9014                    DC                      4
+9006                    DC                      2
+9022                    DC                      6
+9027                    Jamaica                 7
+9028                    London                  7
+
+What Option would you like?
+1 - Sort the planes out
+2 - Looking for your flight?
+Exit
+
+2
+Enter your Plane ID:
+9006
+
+Plane ID                Destination             Day of Travel
+9006                    DC                      2

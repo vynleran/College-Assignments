@@ -43,6 +43,7 @@ public class Plane {
 
     /*Printing the array elements instead of their memory address*/
     public String toString() {
-        return(planeNum + " " + destination + " " + travelDay);
+        return(planeNum + "\t\t\t" + destination + "\t\t\t" + travelDay);
     }
+
 }
