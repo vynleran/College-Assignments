@@ -11,7 +11,7 @@ public class List<Type>
     // But it is a good idea.
     // Just picture an infinite loop adding to the list! :O
     // Yes, you may change this when you do your word count program.
-    public static final int MAX_SIZE = 50;
+    public static final int MAX_SIZE = 500;
 
     private Node<Type> head;
     private Node<Type> tail;
@@ -33,7 +33,7 @@ public class List<Type>
     // (notice we're not just copying the whole list at once?)
     public List(List<Type> l)
     {
-        Node<Type> n = l.head;      // n is the head of the 1 object
+        Node<Type> n = l.head.getLink();      // n is the head of the 1 object
 
         head = new Node();
         tail = new Node();
@@ -55,14 +55,14 @@ public class List<Type>
     // navigates to the beginning of the list
     public void First()
     {
-        this.curr = this.head;
+        curr.setLink(head.getLink());
     }
 
     // navigates to the end of the list
     // the end of the list is at the last valid item in the list
     public void Last()
     {
-        this.curr = this.tail;
+        curr.setLink(tail.getLink());
     }
 
     // navigates to the specified element (0-index)
@@ -70,10 +70,13 @@ public class List<Type>
     // this should not be possible for invalid positions
     public void SetPos(int pos)
     {
-        if(!IsEmpty()) {
-            this.curr = this.head;
-            while(pos>0 && pos<num_items) {     // might be one off = pos>= 0
-                curr.setLink(curr.getLink().getLink());
+        if(!IsEmpty() && pos==0) {
+            curr.setLink(head.getLink());
+        }
+        else {
+            First();
+            while(pos>0 && pos<GetSize()) {
+                Next();
                 pos--;
             }
         }
@@ -85,8 +88,12 @@ public class List<Type>
     public void Prev()
     {
         if(!IsEmpty()) {
-            int pos = GetPos();
-            SetPos(pos-1);                      // would this actually work
+            if(curr.getLink() == head.getLink()) {
+
+            } else {
+                int pos = GetPos();
+                SetPos(pos-1);
+            }
         }
     }
     
@@ -95,39 +102,46 @@ public class List<Type>
     // there should be no wrap-around
     public void Next()
     {
-        if(!IsEmpty()) {
+        if(!IsEmpty() && curr.getLink() != tail.getLink()) {
             curr.setLink(curr.getLink().getLink());
+        }
+        else if(curr.getLink()==tail.getLink()){
+            curr.setLink(tail.getLink());
         }
     }
 
     // returns the location of the current element (or -1)
     public int GetPos()
     {
-        Node<Type> n = this.curr;
-        int i = 0;
-        for(;i<num_items;i++) {
-           n.setLink(n.getLink().getLink());
-        } 
-        int tailIndex = num_items-1;
-        return(tailIndex-i);     // how to get i out of the for loop
+        if(num_items < 1){
+            return -1;
+        }
+        else {
+            int pos = -1;
+            Node n = head.getLink();
+            while(n != curr.getLink()) {
+                n = n.getLink();
+                pos++;
+            }
+            pos++;
+            return pos++;
+        }
     }
 
     // returns the value of the current element (or -1)
     public Type GetValue()
     {
-        return(curr.getLink().getData());
+        if(!IsEmpty()){
+            return(curr.getLink().getData());
+        }
+        return(null);
     }
 
     // returns the size of the list
     // size does not imply capacity
     public int GetSize()
     {
-        int nodeCounter =0;
-        while(!IsEmpty() && head.getLink() != null && nodeCounter<num_items) {
-            head.setLink(head.getLink().getLink());
-            nodeCounter++;
-        }
-        return(nodeCounter);
+        return(num_items);
     }
 
     // inserts an item before the current element
@@ -135,11 +149,16 @@ public class List<Type>
     // this should not be possible for a full list
     public void InsertBefore(Type data)
     {
-        if(!IsFull()) {
-            // can just call prev() and then do everything i did in insertafter()
+        if(this.head.getLink() == null) {
+            Node<Type> newNode = new Node();
+            newNode.setData(data);
+            newNode.setLink(head.getLink());
+            head.setLink(newNode);
+            curr.setLink(newNode);
+            num_items++;
+        } else {
             Prev();
             InsertAfter(data);
-            num_items++;
         }
     }
 
@@ -148,17 +167,22 @@ public class List<Type>
     // this should not be possible for a full list
     public void InsertAfter(Type data)
     {
-        Node<Type> newNode = new Node();
-        newNode.setData(data);
         if(IsEmpty()) {
+            Node<Type> newNode = new Node();
+            newNode.setData(data);
             head.setLink(newNode);
             tail.setLink(newNode);
             curr.setLink(newNode);
             num_items++;
         }    
         else if(!IsFull()) {
+            Node<Type> newNode = new Node();
+            newNode.setData(data);
             newNode.setLink(curr.getLink().getLink());      // setting up a link from the newNode to the node after the previous current node
             curr.getLink().setLink(newNode);        // connecting the current node to the new Node
+            if (curr.getLink() == tail.getLink()){
+                tail.setLink(newNode);
+            }
             curr.setLink(curr.getLink().getLink()); // moving current pointer to the new node
             num_items++;
         }
@@ -169,10 +193,22 @@ public class List<Type>
     public void Remove()
     {
         if(!IsEmpty()) {
-            // go to previous and then follow the removing protocol
-            // keep in mind for the tail and head
-            Prev();
-            curr.getLink().setLink(curr.getLink().getLink().getLink());
+            if(curr.getLink() == head.getLink()) {
+                head.setLink(head.getLink().getLink());
+                curr.setLink(head.getLink());
+                num_items--;
+            }
+            else if(curr.getLink() == tail.getLink()) {
+                Prev();
+                curr.getLink().setLink(null);
+                tail.setLink(curr.getLink());
+                num_items--;
+            } 
+            else {
+                Prev();
+                curr.getLink().setLink(curr.getLink().getLink().getLink());
+                num_items--;
+            }
         }
     
     }
@@ -198,40 +234,69 @@ public class List<Type>
     // returns if the list is full
     public boolean IsFull()
     {
-        if(num_items == MAX_SIZE) {
+        if(num_items >= MAX_SIZE) {
             return true;
         }
         return false;
     }
 
     // // returns if two lists are equal (by value)
-    // public boolean Equals(List<Type> l)
-    // {
-    
-    // }
+    public boolean Equals(List<Type> l)
+    {
+        Node<Type> headNodeA = this.head.getLink();     // the head node for the list
+        Node<Type> headNodeB = l.head.getLink();        // the head node for the parameter list
+        int i =0;
+        if(this.GetSize() != l.GetSize()) {     // if not the same size
+            return false;
+        }
+        else if(this.GetSize() == l.GetSize() && i == GetSize()){   // if the same size and i is equal to getSize
+            for(;i < GetSize();) {
+                if(headNodeA.getData() == headNodeB.getData()) {    // checking to see if the datas are equal
+                    i++;
+                    headNodeA = headNodeA.getLink();    // moving on to the next node
+                    headNodeB = headNodeB.getLink();    // moving on to the next node 
+                }
+            }
+        }
+        return true;
+    }
 
-    // // returns the concatenation of two lists
-    // // l should not be modified
-    // // l should be concatenated to the end of *this
-    // // the returned list should not exceed MAX_SIZE elements
-    // // the last element of the new list is the current
-    // public List<Type> Add(List<Type> l)
-    // {
-    
-    // }
+    // returns the concatenation of two lists
+    // l should not be modified
+    // l should be concatenated to the end of *this
+    // the returned list should not exceed MAX_SIZE elements
+    // the last element of the new list is the current
+    public List<Type> Add(List<Type> l)
+    {
+        // copy the first list
+		List<Type> t = new List<>(this);
+		Node<Type> n = l.head.getLink();
+
+		// iterate through the second list and copy each element to the new list
+		while (n != null && !t.IsFull())
+		{
+			t.InsertAfter(n.getData());
+			n = n.getLink();
+		}
+		return t;
+
+    }
 
     // returns a string representation of the entire list (e.g., 1 2 3 4 5)
     // the string "NULL" should be returned for an empty list
+    // got this method from Alayna
     public String toString()
     {
-        if(!IsEmpty()) {
-            for(int i=0;i<=num_items;i++) {
-                this.curr = this.head;      // moving curr to head
-                Type data = curr.getLink().getData();       // getting the data from each node
-                curr.setLink(curr.getLink().getLink());     // curr moving to the next node
-                System.out.print(data + " ");
-            }      
+        if(this.head.getLink() == null){
+            return "NULL";
+        } else {
+            String s = "";
+            Node temp = this.head.getLink();
+            while(temp != null){
+               s += temp.getData() + " ";
+               temp = temp.getLink();
+            }
+            return s;
         }
-        return("NULL");
     }
 }
