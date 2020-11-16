@@ -1,1 +1,109 @@
-Title		Author		Status
+List of all the books:
+Title: 1984		Author: Orwell		Status: false
+Title: 20000 Leagues Under The Sea		Author: Verne		Status: true
+Title: 2001: A Space Odyssey		Author: ClarkeA		Status: true
+Title: Alas Babylon		Author: Frank		Status: false
+Title: American Gods		Author: Gaiman		Status: false
+Title: Anathem		Author: Stephenson		Status: true
+Title: Animal Farm		Author: Orwell		Status: false
+Title: Belgariad		Author: Eddings		Status: true
+Title: Book Of The New Sun		Author: Wolfe		Status: true
+Title: Brave New World		Author: Huxley		Status: false
+Title: Canticle For Leibowitz		Author: Miller		Status: false
+Title: Cat's Cradle		Author: Vonnegut		Status: false
+Title: Caves Of Steel		Author: Asimov		Status: true
+Title: Childhood's End		Author: ClarkeA		Status: true
+Title: Chronicles Of Amber		Author: Zelazny		Status: true
+Title: Chronicles Of Thomas Covenant The Unbeliever		Author: Donaldson		Status: false
+Title: Clockwork Orange		Author: Burgess		Status: true
+Title: Codex Alera Series		Author: Butcher		Status: true
+Title: Conan The Barbarian Series		Author: Howard		Status: true
+Title: Contact		Author: Sagan		Status: true
+Title: Cryptonomicon		Author: Stephenson		Status: true
+Title: Crystal Cave		Author: Stewart		Status: true
+Title: Culture Series		Author: Banks		Status: true
+Title: Dark Tower Series		Author: King		Status: true
+Title: Diamond Age		Author: Stephenson		Status: true
+Title: Dispossessed		Author: LeGuin		Status: true
+Title: Do Androids Dream Of Electric Sheep?		Author: Dick		Status: false
+Title: Doomsday Book		Author: Willis		Status: true
+Title: Dragonflight		Author: McCaffrey		Status: true
+Title: Dune Chronicles		Author: Herbert		Status: true
+Title: Elric Saga		Author: Moorcock		Status: false
+Title: Ender's Game		Author: Card		Status: false
+Title: Eyre Affair		Author: Fforde		Status: false
+Title: Fahrenheit 451		Author: Bradbury		Status: false
+Title: Farseer Trilogy		Author: Hobb		Status: true
+Title: Fire Upon The Deep		Author: Vinge		Status: true
+Title: Flowers For Algernon		Author: Keys		Status: false
+Title: Forever War		Author: Haldeman		Status: true
+Title: Foundation Trilogy		Author: Asimov		Status: false
+Title: Frankenstein		Author: Shelley		Status: true
+Title: Going Postal		Author: Pratchett		Status: true
+Title: Handmaid's Tale		Author: Atwood		Status: true
+Title: Hard-boiled Wonderland and the End of the World		Author: Murakami		Status: false
+Title: Hitchhiker's Guide To The Galaxy		Author: AdamsD		Status: false
+Title: Hunger Games Trilogy		Author: Collins		Status: false
+Title: Hyperion		Author: Simmons		Status: false
+Title: I Am Legend		Author: Matheson		Status: true
+Title: I Robot		Author: Asimov		Status: true
+Title: Illustrated Man		Author: Bradbury		Status: false
+Title: Inherit The Stars		Author: Hogan		Status: false
+Title: Jonathan Strange & Mr Norrell		Author: ClarkeS		Status: true
+Title: Journey To The Center Of The Earth		Author: Verne		Status: true
+Title: Kingkiller Chronicles		Author: Rothfuss		Status: true
+Title: Kushiel's Legacy Series		Author: Carey		Status: true
+Title: Last Unicorn		Author: Beagle		Status: true
+Title: Left Hand Of Darkness		Author: LeGuin		Status: true
+Title: Legend Of Drizzt Series		Author: Salvatore		Status: true
+Title: Lord Of The Rings Trilogy		Author: Tolkien		Status: false
+Title: Lucifer's Hammer		Author: Niven&Pournelle		Status: false
+Title: Malazan Book Of The Fallen Series		Author: Erikson		Status: true
+Title: Mars Trilogy		Author: Robinson		Status: false
+Title: Martian Chronicles		Author: Bradbury		Status: false
+Title: Mistborn Series		Author: Sanderson		Status: true
+Title: Mists Of Avalon		Author: Bradley		Status: true
+Title: Moon Is A Harsh Mistress		Author: Heinlein		Status: false
+Title: Mote In God's Eye		Author: Niven&Pournelle		Status: true
+Title: Neuromancer		Author: Gibson		Status: true
+Title: Neverwhere		Author: Gaiman		Status: false
+Title: Old Man's War		Author: Scalzi		Status: false
+Title: Once And Future King		Author: White		Status: false
+Title: Outlander Series		Author: Gabaldan		Status: true
+Title: Pastwatch		Author: Card		Status: false
+Title: Perdido Street Station		Author: Mieville		Status: true
+Title: Princess Bride		Author: Goldman		Status: false
+Title: Ready Player One		Author: Cline		Status: false
+Title: Rendezvous With Rama		Author: ClarkeA		Status: true
+Title: Riftwar Saga		Author: Feist		Status: true
+Title: Ringworld		Author: Niven		Status: true
+Title: Sandman		Author: Gaiman		Status: false
+Title: Shannara Trilogy		Author: Brooks		Status: true
+Title: Silmarillion		Author: Tolkien		Status: true
+Title: Slaughterhouse-Five		Author: Vonnegut		Status: false
+Title: Small Gods		Author: Pratchett		Status: true
+Title: Snow Crash		Author: Stephenson		Status: false
+Title: Something Wicked This Way Comes		Author: Bradbury		Status: false
+Title: Song Of Ice And Fire Series		Author: Martin		Status: true
+Title: Space Trilogy		Author: Lewis		Status: true
+Title: Sparrow		Author: Russell		Status: false
+Title: Stardust		Author: Gaiman		Status: true
+Title: Starship Troopers		Author: Heinlein		Status: true
+Title: Stranger In A Strange Land		Author: Heinlein		Status: true
+Title: Sunshine		Author: McKinley		Status: true
+Title: Sword Of Truth		Author: Goodkind		Status: true
+Title: The Road		Author: McCarthy		Status: true
+Title: The Stand		Author: King		Status: false
+Title: Thrawn Trilogy		Author: Zahn		Status: true
+Title: Time Machine		Author: Wells		Status: false
+Title: Time Traveler's Wife		Author: Niffenegger		Status: false
+Title: Tripods Series		Author: Christopher		Status: false
+Title: Vorkosigan Saga		Author: Bujold		Status: true
+Title: War Of The Worlds		Author: Wells		Status: false
+Title: Watchmen		Author: Moore		Status: true
+Title: Watership Down		Author: AdamsR		Status: false
+Title: Way Of Kings		Author: Sanderson		Status: true
+Title: Wheel Of Time Series		Author: Jordan		Status: true
+Title: Wicked		Author: Maguire		Status: false
+Title: World War Z		Author: Brooks		Status: true
+Title: Xanth Series		Author: Anthony		Status: true

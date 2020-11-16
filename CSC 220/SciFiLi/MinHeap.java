@@ -13,7 +13,7 @@ public class MinHeap {
         this.maxsize = maxsize; 
         this.size = 0; 
         Heap = new Book[this.maxsize + 1]; 
-        Heap[0] = new Book(); 
+        Heap[0] = new Book();
     } 
   
     // Function to return the position of 
