@@ -64,17 +64,17 @@ public class Library {
     /* Function to search for an element recursively */
     private void search(BTNode current, String value)
     {
-        if ((value.compareTo(current.getData().getTitle()) == 0) && (current != null))
+        if(current == null)
+            System.out.println("Nothing Found");
+        
+        else if ((value.compareTo(current.getData().getTitle()) == 0) && (current != null))
             System.out.println(current.getData().toString());
 
         else if ((value.compareTo(current.getData().getTitle()) < 0) && (current != null))
             search(current.getLeft(), value);
 
         else if ((value.compareTo(current.getData().getTitle()) > 0) && (current != null))
-            search(current.getRight(), value);
-        else{
-            System.out.println("Nothing Found"); 
-        }        
+            search(current.getRight(), value);   
     }
     /* Function to change book status */
     public void statChange(String val)
@@ -123,22 +123,23 @@ public class Library {
             authorTraverse(r.getRight(), authorName);
         }
     }
-    // /* Function for inorder traversal */
-    // public String endDay()
-    // {
-    //     return endDay(root);
-    // }
-    // private String endDay(BTNode r)
-    // {
-    //     if (r != null)
-    //     {
-    //         endDay(r.getLeft());
-    //         if(r.getData().getStatus()==true){
-    //             return r.getData().toString();
-    //         }
-    //         endDay(r.getRight());
-    //     }
-    // }
+    /* Function for end of the day */
+    public String endDay()
+    {
+        return endDay(root);
+    }
+    String info = "";
+    private String endDay(BTNode r)
+    {
+        
+        if (r != null)
+        {
+            endDay(r.getLeft());
+            info += r.getData().toString();
+            endDay(r.getRight());
+        }
+        return info;
+    }
     /* Function for preorder traversal */
     public void preorder()
     {

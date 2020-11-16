@@ -57,6 +57,6 @@ public class Book {
 		// else {
 		// 	return("Author: " + author + "\t\tStatus: Taken");
 		// }
-		return("Title: " + title + "\t\tAuthor: " + author + "\t\tStatus: " + status);
+		return("Title: " + title + "\t\tAuthor: " + author + "\t\tStatus: " + status + "\n");
 	}
 }

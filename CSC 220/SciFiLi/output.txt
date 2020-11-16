@@ -1,0 +1,600 @@
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+1
+ORGANIZED (Z-A) BASED ON AUTHOR
+------------------
+Title: Thrawn Trilogy           Author: Zahn            Status: true
+
+Title: Doomsday Book            Author: Willis          Status: true
+
+Title: Slaughterhouse-Five              Author: Vonnegut                Status: false
+
+Title: Cat's Cradle             Author: Vonnegut                Status: false
+
+Title: Book Of The New Sun              Author: Wolfe           Status: true
+
+Title: Once And Future King             Author: White           Status: false
+
+Title: Time Machine             Author: Wells           Status: false
+
+Title: Fire Upon The Deep               Author: Vinge           Status: true
+
+Title: 20000 Leagues Under The Sea              Author: Verne           Status: true
+
+Title: War Of The Worlds                Author: Wells           Status: false
+
+Title: Journey To The Center Of The Earth               Author: Verne          Status: true
+
+Title: Lord Of The Rings Trilogy                Author: Tolkien         Status: false
+
+Title: Silmarillion             Author: Tolkien         Status: true
+
+Title: Crystal Cave             Author: Stewart         Status: true
+
+Title: Snow Crash               Author: Stephenson              Status: true
+
+Title: Cryptonomicon            Author: Stephenson              Status: true
+
+Title: Anathem          Author: Stephenson              Status: true
+
+Title: Diamond Age              Author: Stephenson              Status: true
+
+Title: Hyperion         Author: Simmons         Status: false
+
+Title: Frankenstein             Author: Shelley         Status: true
+
+Title: Old Man's War            Author: Scalzi          Status: false
+
+Title: Mistborn Series          Author: Sanderson               Status: true
+
+Title: Way Of Kings             Author: Sanderson               Status: true
+
+Title: Legend Of Drizzt Series          Author: Salvatore               Status: true
+
+Title: Contact          Author: Sagan           Status: true
+
+Title: Sparrow          Author: Russell         Status: false
+
+Title: Kingkiller Chronicles            Author: Rothfuss                Status: true
+
+Title: Mars Trilogy             Author: Robinson                Status: false
+
+Title: Going Postal             Author: Pratchett               Status: true
+
+Title: Small Gods               Author: Pratchett               Status: true
+
+Title: Animal Farm              Author: Orwell          Status: true
+
+Title: 1984             Author: Orwell          Status: true
+
+Title: Mote In God's Eye                Author: Niven&Pournelle         Status: true
+
+Title: Lucifer's Hammer         Author: Niven&Pournelle         Status: false
+
+Title: Ringworld                Author: Niven           Status: true
+
+Title: Hard-boiled Wonderland and the End of the World          Author: Murakami
+Status: false
+
+Title: Watchmen         Author: Moore           Status: true
+
+Title: Canticle For Leibowitz           Author: Miller          Status: false
+
+Title: Perdido Street Station           Author: Mieville                Status: true
+
+Title: Sunshine         Author: McKinley                Status: true
+
+Title: The Road         Author: McCarthy                Status: true
+
+Title: Dragonflight             Author: McCaffrey               Status: true
+
+Title: Time Traveler's Wife             Author: Niffenegger             Status: false
+
+Title: I Am Legend              Author: Matheson                Status: true
+
+Title: Song Of Ice And Fire Series              Author: Martin          Status: true
+
+Title: Wicked           Author: Maguire         Status: false
+
+Title: Space Trilogy            Author: Lewis           Status: true
+
+Title: Left Hand Of Darkness            Author: LeGuin          Status: true
+
+Title: Elric Saga               Author: Moorcock                Status: false
+
+Title: Dark Tower Series                Author: King            Status: true
+
+Title: The Stand                Author: King            Status: false
+
+Title: Flowers For Algernon             Author: Keys            Status: false
+
+Title: Dispossessed             Author: LeGuin          Status: true
+
+Title: Wheel Of Time Series             Author: Jordan          Status: true
+
+Title: Brave New World          Author: Huxley          Status: false
+
+Title: Conan The Barbarian Series               Author: Howard          Status: true
+
+Title: Inherit The Stars                Author: Hogan           Status: false
+
+Title: Farseer Trilogy          Author: Hobb            Status: true
+
+Title: Dune Chronicles          Author: Herbert         Status: true
+
+Title: Starship Troopers                Author: Heinlein                Status: true
+
+Title: Moon Is A Harsh Mistress         Author: Heinlein                Status: false
+
+Title: Stranger In A Strange Land               Author: Heinlein               Status: true
+
+Title: Forever War              Author: Haldeman                Status: true
+
+Title: Sword Of Truth           Author: Goodkind                Status: true
+
+Title: Princess Bride           Author: Goldman         Status: false
+
+Title: Neuromancer              Author: Gibson          Status: true
+
+Title: Sandman          Author: Gaiman          Status: false
+
+Title: Stardust         Author: Gaiman          Status: true
+
+Title: Neverwhere               Author: Gaiman          Status: false
+
+Title: American Gods            Author: Gaiman          Status: false
+
+Title: Outlander Series         Author: Gabaldan                Status: true
+
+Title: Alas Babylon             Author: Frank           Status: false
+
+Title: Eyre Affair              Author: Fforde          Status: false
+
+Title: Riftwar Saga             Author: Feist           Status: true
+
+Title: Malazan Book Of The Fallen Series                Author: Erikson        Status: true
+
+Title: Belgariad                Author: Eddings         Status: true
+
+Title: Chronicles Of Thomas Covenant The Unbeliever             Author: Donaldson
+Status: false
+
+Title: Do Androids Dream Of Electric Sheep?             Author: Dick           Status: false
+
+Title: Hunger Games Trilogy             Author: Collins         Status: false
+
+Title: Ready Player One         Author: Cline           Status: false
+
+Title: Jonathan Strange & Mr Norrell            Author: ClarkeS         Status: true
+
+Title: 2001: A Space Odyssey            Author: ClarkeA         Status: true
+
+Title: Rendezvous With Rama             Author: ClarkeA         Status: true
+
+Title: Childhood's End          Author: ClarkeA         Status: true
+
+Title: Tripods Series           Author: Christopher             Status: false
+
+Title: Kushiel's Legacy Series          Author: Carey           Status: true
+
+Title: Ender's Game             Author: Card            Status: false
+
+Title: Pastwatch                Author: Card            Status: false
+
+Title: Codex Alera Series               Author: Butcher         Status: true
+
+Title: Clockwork Orange         Author: Burgess         Status: true
+
+Title: Vorkosigan Saga          Author: Bujold          Status: true
+
+Title: World War Z              Author: Brooks          Status: true
+
+Title: Shannara Trilogy         Author: Brooks          Status: true
+
+Title: Mists Of Avalon          Author: Bradley         Status: true
+
+Title: Illustrated Man          Author: Bradbury                Status: false
+
+Title: Fahrenheit 451           Author: Bradbury                Status: false
+
+Title: Something Wicked This Way Comes          Author: Bradbury               Status: false
+
+Title: Martian Chronicles               Author: Bradbury                Status: false
+
+Title: Last Unicorn             Author: Beagle          Status: true
+
+Title: Culture Series           Author: Banks           Status: true
+
+Title: Handmaid's Tale          Author: Atwood          Status: true
+
+Title: Foundation Trilogy               Author: Asimov          Status: false
+
+Title: Caves Of Steel           Author: Asimov          Status: true
+
+Title: I Robot          Author: Asimov          Status: true
+
+Title: Xanth Series             Author: Anthony         Status: true
+
+Title: Hitchhiker's Guide To The Galaxy         Author: AdamsD          Status: false
+
+Title: Watership Down           Author: AdamsR          Status: false
+
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+2
+
+Titles:
+1984
+20000 Leagues Under The Sea
+2001: A Space Odyssey
+Alas Babylon
+American Gods
+Anathem
+Animal Farm
+Belgariad
+Book Of The New Sun
+Brave New World
+Canticle For Leibowitz
+Cat's Cradle 
+Caves Of Steel
+Childhood's End
+Chronicles Of Amber
+Chronicles Of Thomas Covenant The Unbeliever
+Clockwork Orange
+Codex Alera Series
+Conan The Barbarian Series
+Contact
+Cryptonomicon
+Crystal Cave
+Culture Series
+Dark Tower Series
+Diamond Age
+Dispossessed
+Do Androids Dream Of Electric Sheep?
+Doomsday Book
+Dragonflight
+Dune Chronicles 
+Elric Saga
+Ender's Game
+Eyre Affair
+Fahrenheit 451
+Farseer Trilogy
+Fire Upon The Deep
+Flowers For Algernon
+Forever War
+Foundation Trilogy
+Frankenstein
+Going Postal
+Handmaid's Tale
+Hard-boiled Wonderland and the End of the World
+Hitchhiker's Guide To The Galaxy 
+Hunger Games Trilogy
+Hyperion
+I Am Legend
+I Robot
+Illustrated Man
+Inherit The Stars
+Jonathan Strange & Mr Norrell
+Journey To The Center Of The Earth
+Kingkiller Chronicles
+Kushiel's Legacy Series
+Last Unicorn
+Left Hand Of Darkness
+Legend Of Drizzt Series
+Lord Of The Rings Trilogy
+Lucifer's Hammer
+Malazan Book Of The Fallen Series
+Mars Trilogy 
+Martian Chronicles
+Mistborn Series
+Mists Of Avalon
+Moon Is A Harsh Mistress
+Mote In God's Eye
+Neuromancer
+Neverwhere
+Old Man's War
+Once And Future King
+Outlander Series
+Pastwatch
+Perdido Street Station
+Princess Bride
+Ready Player One 
+Rendezvous With Rama
+Riftwar Saga
+Ringworld
+Sandman
+Shannara Trilogy
+Silmarillion
+Slaughterhouse-Five
+Small Gods
+Snow Crash
+Something Wicked This Way Comes
+Song Of Ice And Fire Series
+Space Trilogy
+Sparrow
+Stardust
+Starship Troopers
+Stranger In A Strange Land
+Sunshine
+Sword Of Truth
+The Road
+The Stand
+Thrawn Trilogy 
+Time Machine
+Time Traveler's Wife
+Tripods Series
+Vorkosigan Saga
+War Of The Worlds
+Watchmen
+Watership Down
+Way Of Kings
+Wheel Of Time Series
+Wicked
+World War Z
+Xanth Series
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+3
+Title: Small Gods               Author: Pratchett               Status: true
+--REMOVED
+Title: Dune Chronicles          Author: Herbert         Status: true
+--REMOVED
+Title: I Robot          Author: Asimov          Status: true
+--REMOVED
+Title: Dark Tower Series                Author: King            Status: true
+--REMOVED
+Title: 20000 Leagues Under The Sea              Author: Verne           Status: true
+--REMOVED
+Title: World War Z              Author: Brooks          Status: true
+--REMOVED
+Title: Journey To The Center Of The Earth               Author: Verne          Status: true
+--REMOVED
+Title: Thrawn Trilogy           Author: Zahn            Status: true
+--REMOVED
+Title: Rendezvous With Rama             Author: ClarkeA         Status: true
+--REMOVED
+Title: Farseer Trilogy          Author: Hobb            Status: true
+--REMOVED
+Title: Jonathan Strange & Mr Norrell            Author: ClarkeS         Status: true
+--REMOVED
+Title: Contact          Author: Sagan           Status: true
+--REMOVED
+Title: Frankenstein             Author: Shelley         Status: true
+--REMOVED
+Title: Animal Farm              Author: Orwell          Status: true
+--REMOVED
+Title: Watchmen         Author: Moore           Status: true
+--REMOVED
+Title: Song Of Ice And Fire Series              Author: Martin          Status: true
+--REMOVED
+Title: Wheel Of Time Series             Author: Jordan          Status: true
+--REMOVED
+Title: Stranger In A Strange Land               Author: Heinlein               Status: true
+--REMOVED
+Title: Handmaid's Tale          Author: Atwood          Status: true
+--REMOVED
+Title: Starship Troopers                Author: Heinlein                Status: true
+--REMOVED
+Title: Clockwork Orange         Author: Burgess         Status: true
+--REMOVED
+Title: Ringworld                Author: Niven           Status: true
+--REMOVED
+Title: Silmarillion             Author: Tolkien         Status: true
+--REMOVED
+Title: Stardust         Author: Gaiman          Status: true
+--REMOVED
+Title: Last Unicorn             Author: Beagle          Status: true
+--REMOVED
+Title: Going Postal             Author: Pratchett               Status: true
+--REMOVED
+Title: I Am Legend              Author: Matheson                Status: true
+--REMOVED
+Title: Culture Series           Author: Banks           Status: true
+--REMOVED
+Title: Book Of The New Sun              Author: Wolfe           Status: true
+--REMOVED
+Title: Caves Of Steel           Author: Asimov          Status: true
+--REMOVED
+Title: Doomsday Book            Author: Willis          Status: true
+--REMOVED
+Title: Xanth Series             Author: Anthony         Status: true
+--REMOVED
+Title: Fire Upon The Deep               Author: Vinge           Status: true
+--REMOVED
+Title: Codex Alera Series               Author: Butcher         Status: true
+--REMOVED
+Title: Malazan Book Of The Fallen Series                Author: Erikson        Status: true
+--REMOVED
+Title: Diamond Age              Author: Stephenson              Status: true
+--REMOVED
+Title: Conan The Barbarian Series               Author: Howard          Status: true
+--REMOVED
+Title: Mote In God's Eye                Author: Niven&Pournelle         Status: true
+--REMOVED
+Title: Forever War              Author: Haldeman                Status: true
+--REMOVED
+Title: Belgariad                Author: Eddings         Status: true
+--REMOVED
+Title: Snow Crash               Author: Stephenson              Status: true
+--REMOVED
+Title: Dragonflight             Author: McCaffrey               Status: true
+--REMOVED
+Title: 2001: A Space Odyssey            Author: ClarkeA         Status: true
+--REMOVED
+Title: 1984             Author: Orwell          Status: true
+--REMOVED
+Title: Neuromancer              Author: Gibson          Status: true
+--REMOVED
+Title: Kingkiller Chronicles            Author: Rothfuss                Status: true
+--REMOVED
+Title: Chronicles Of Amber              Author: Zelazny         Status: true
+--REMOVED
+Title: Left Hand Of Darkness            Author: LeGuin          Status: true
+--REMOVED
+Title: Mists Of Avalon          Author: Bradley         Status: true
+--REMOVED
+Title: Mistborn Series          Author: Sanderson               Status: true
+--REMOVED
+Title: Childhood's End          Author: ClarkeA         Status: true
+--REMOVED
+Title: Vorkosigan Saga          Author: Bujold          Status: true
+--REMOVED
+Title: Sword Of Truth           Author: Goodkind                Status: true
+--REMOVED
+Title: The Road         Author: McCarthy                Status: true
+--REMOVED
+Title: Riftwar Saga             Author: Feist           Status: true
+--REMOVED
+Title: Shannara Trilogy         Author: Brooks          Status: true
+--REMOVED
+Title: Way Of Kings             Author: Sanderson               Status: true
+--REMOVED
+Title: Legend Of Drizzt Series          Author: Salvatore               Status: true
+--REMOVED
+Title: Kushiel's Legacy Series          Author: Carey           Status: true
+--REMOVED
+Title: Dispossessed             Author: LeGuin          Status: true
+--REMOVED
+Title: Anathem          Author: Stephenson              Status: true
+--REMOVED
+Title: Crystal Cave             Author: Stewart         Status: true
+--REMOVED
+Title: Outlander Series         Author: Gabaldan                Status: true
+--REMOVED
+Title: Sunshine         Author: McKinley                Status: true
+--REMOVED
+Title: Space Trilogy            Author: Lewis           Status: true
+--REMOVED
+Title: Cryptonomicon            Author: Stephenson              Status: true
+--REMOVED
+Title: Perdido Street Station           Author: Mieville                Status: true
+--REMOVED
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+4
+Who is the author you are looking for?
+Orwell
+
+Books by Orwell:
+Title           Status
+----------------------------
+1984            true
+Animal Farm             true
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+4
+Who is the author you are looking for?
+parsa
+
+Books by parsa:
+Title           Status
+----------------------------
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+5
+What book are you looking for?
+1984
+Title: 1984             Author: Orwell          Status: true
+
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+5
+What book are you looking for?
+some book
+Nothing Found
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+6
+What book are you checking in/out?
+type "no" to stop checking in/out
+1984
+Animal Farm
+Snow Crash
+no
+
+All Done!
+
+What Option would you like?
+1 - Sort based on author name
+2 - Sort based on title
+3 - Oh there is a fire? Lets save the books
+4 - Searching for an author's books?
+5 - Searching for a specific book and need details?
+6 - Are you trying to check in/out?
+7 - Are you leaving and need a list of the books?
+Exit
+
+7
+File created: LibraryStatus.txt
+Successfully wrote to the file.

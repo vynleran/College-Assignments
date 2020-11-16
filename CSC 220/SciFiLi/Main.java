@@ -1,3 +1,25 @@
+// Developers: John Rettig and Parsa Jahanlou
+// SciFiLi
+// Due November 16th
+// Data Structures: Binary Search Tree, Min Heap, String Heap, and Stack
+
+// Binary search tree was chosen because of how easy and efficient it is to search using  BST
+// it also can hold more than one data which was perfect because each books has a title,
+// author name, status, and priority.
+
+// Min Heap was chosen for the fire because the way a min heap is set up goes well with how 
+// a library that prioritizes certain books. We could just simply remove the root and then heapify the 
+// the new tree into a heap and repeat this process till we have all the books out
+
+// String heap was chosen for when we have to sort based on author name since the books were already sorted 
+// based on title and just needed to be converted from a BST to a heap. 
+
+// Stacks were chosen for checking in and out books because whenever a user is trying to get some books or
+// return them, they basically put a pile on the counter which respresent a stack. We could simply just push them
+// and then popped them to process and change the status of their books
+
+
+
 import java.io.*;
 import java.util.*;
 import javax.crypto.Mac;
@@ -130,8 +152,8 @@ public class Main {
                 // writing to the new file
                 try {
                     FileWriter myWriter = new FileWriter("LibraryStatus.txt");
-                    myWriter.write("Title\t\tAuthor\t\tStatus\n");
-                    //myWriter.write(scifili.endDay());
+                    myWriter.write("List of all the books:\n");
+                    myWriter.write(scifili.endDay());
                     myWriter.close();
                     System.out.println("Successfully wrote to the file.");
                 } catch (IOException e) {
@@ -169,9 +191,18 @@ public class Main {
         // copy the binary tree
         // and turn it into a heap
         // then start removing the author names
+        Book[] authA = new Book[108];
         System.out.println("ORGANIZED (Z-A) BASED ON AUTHOR\n------------------");
-        for(int i = 1; i <= 108; i++){
-            System.out.println(authorHeap.extractMax());
+        for(int i = 0; i < authA.length; i++){
+            authA[i] = authorHeap.extractMax();
+            
+        }
+        for(int i = 0; i < authA.length; i++)
+        {
+            if(authA[i].getAuthor() != "")
+            {
+                System.out.println(authA[i]);
+            }
         }
         
     }
@@ -181,8 +212,17 @@ public class Main {
         // copy the binary tree ==> (Did this alongside the Library creation)
         // you put everything into a max heap based on priority
         // you just start removing nodes
-        for(int i = 1; i <= 108; i++){
-            System.out.println(fire.remove() + "--REMOVED");
+        Book[] fireA = new Book[108];
+        for(int i = 0; i < fireA.length; i++){
+           
+            fireA[i] = fire.remove();
+        
+        }
+        for(int i = 0; i < fireA.length; i++){
+            if(fireA[i].getStatus() == true)
+            {
+                System.out.println(fireA[i] + "--REMOVED");
+            }
         }
     }
 
