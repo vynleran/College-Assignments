@@ -1,60 +1,77 @@
-# I got all of this code from
-# github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Linked%20Lists/SinglyLinkedList.py
-
-# Linked List and Node can be accomodated in separate classes for convenience
 from Node import *
 
-class LinkedList(object):
-    # Defining the head of the linked list
+class LinkedList:
     def __init__(self):
         self.head = None
-        self.tail = None
+    # Print the Linked List
+    def show(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.data)
+            current_node = current_node.next
 
-    # printing the data in the linked list
-    def printLinkedList(self):
-        temp = self.head
-        while(temp):
-            print(temp.data, end=' ')
-            temp = temp.next
+    # Length of the list
+    def size(self):
+        current_node = self.head
+        total = 0
+        while current_node:
+            total += 1
+            current_node = current_node.next
+        return total
 
-    def add(self, data):
-        newNode = Node(data)
-        if self.head == None:
-            self.head = newNode
-        
-        if self.tail != None:
-            self.tail.next = newNode
-            
-        self.tail = newNode
+    # Add a Node at the end of the list
+    def insert(self, data):
+        new_node = Node(data)
+
+        if self.head is None:
+            self.head = new_node
+            return
+
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+
+        last_node.next = new_node
+
+    # Add a Node at the beginning of the list
+    def preappend(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node
+
+    # Insert a Node in the middle of the list
+    def insert_after_node(self, prev_node, data):
+        if not prev_node:
+            print("Previous Node Not Exist in the list")
+            return
+        new_node = Node(data)
+        new_node.next = prev_node.next
+        prev_node.next = new_node
+
+    # Remove a Node from the list
+    def remove(self, key):
+        current_node = self.head
+
+        if current_node and current_node.data == key:
+            self.head = current_node.next
+            current_node = None
+            return
+
+        prev_node = None
+        while current_node and current_node.data != key:
+            prev_node = current_node
+            current_node = current_node.next
+        if current_node is None:
+            print("Node Does Not Exist")
+            return
+        prev_node.next = current_node.next
+        current_node = None
     
-    # deleting an item based on data(or key)
-    def delete(self, data):
-        temp = self.head
-        # if data/key is found in head node itself
-        if (temp.next is not None):
-            if(temp.data == data):
-                self.head = temp.next
-                temp = None
-                return
-            else:
-                #  else search all the nodes
-                while(temp.next != None):
-                    if(temp.data == data):
-                        break
-                    prev = temp          #save current node as previous so that we can go on to next node
-                    temp = temp.next
-
-                # node not found
-                if temp == None:
-                    return
-
-                prev.next = temp.next
-                return
-
-    # iterative search
-    def search(self, node, data):
-        if node == None:
-            return False
-        if node.data == data:
-            return True
-        return self.search(node.getNext(), data)
+    def kmp(self, ll, pattern):
+        pass
+    
+    def boyerMoore(self, ll, pattern):
+        pass
+    
+    def brute(self, ll, pattern):
+        pass
